@@ -1,0 +1,1090 @@
+cd themes
+ls
+cd jjr
+ls
+cd layout
+ls
+subl resume.ejs
+cd ..
+cd ../..
+ls
+cd source
+ls
+cd pieces/
+ls
+cd joshuarrrr.github.io
+ls
+subl .
+bundle show minima
+bundle exec jekyll serve --watch
+subl .
+bundle show minima
+cd $(bundle show minima)
+ls
+las assets/
+ls assets/
+cp assets/main.scss ~/joshuarrrr.github.io/assets/main.scss
+cp -r assets/main.scss ~/joshuarrrr.github.io/assets/main.scss
+cp -p assets/main.scss ~/joshuarrrr.github.io/assets/main.scss
+mkdir ~/joshuarrrr.github.io/assets/
+cp assets/main.scss ~/joshuarrrr.github.io/assets/main.scss
+subl .
+ls
+cp _includes/header.html ~/joshuarrrr.github.io/_includes/header.html
+cp _includes/footer.html ~/joshuarrrr.github.io/_includes/footer.html
+cp _includes/head.html ~/joshuarrrr.github.io/_includes/head.html
+cp assets/main.scss ~/joshuarrrr.github.io/assets/main.scss
+cd ~/joshuarrrr.github.io
+git status
+git add about.md 
+git commit -m "update about page"
+git status
+git push origin master
+git status
+git add _config.yml 
+git commit -m "update config to initial values"
+git status
+git add _includes/
+git status
+git commit -m "add header and footer overrides"
+git status
+git add assets/
+git commit "add CSS overrides"
+git status
+git add _layouts/home.html 
+git reset HEAD _layouts/home.html
+git status
+git commit -m "add CSS overrides"
+git status
+git add _layouts/home.html 
+git commit -m "add homepage layout override"
+git status
+clear
+git status
+git add -p
+git status
+git commit -m "Add author field to config"
+git add -[
+git add -p
+git status
+git add _sass/
+git commit -m "Add custom SASS and convert the footer layout to equal columns"
+git status
+git add _layouts/home.html 
+git commit -m "modify homepage"
+git status
+git add _posts/2017-01-18-Portfolio-Sites-for-Non-coding-Journalists.md 
+git commit -m "add first blog post"
+git push origin master
+git status
+bundle exec jekyll serve --watch
+sudo service apache2 restart
+cd /var/www/
+ls
+cd html/
+ls
+mkdir indolent
+sudo mkdir indolent
+ls
+sudo rm indolent
+sudo rm -f indolent
+sudo rm -rf indolent
+ls
+cd ~/Downloads/
+ls
+cd /var/www/html/
+ln -s ~/indolent/ ./indolent
+sudo ln -s ~/indolent/ ./indolent
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+cd vts-site/
+ls
+cd www/
+ls
+cd ..
+sudo chown -R www-data ~/indolent/
+sudo /etc/init.d/mysql start 
+mysql -u root -p
+sudo apt-get update
+mysql -u root -p
+ssh josh@datawrapper.joshromero.com
+ls
+aws ec2 get-console-output --instance-id
+ls
+cd joshromero-portfolio/
+ls
+subl .
+hexo server
+python -m SimpleHTTPServer
+cp ~/joshromero-portfolio/themes/
+cp ~/joshromero-portfolio/themes/jjr/layout/resume.ejs
+cd ../joshromero-portfolio/
+cd vts-site/
+python -m SimpleHTTPServer
+cd joshuarrrr.github.io
+bundle
+bundle exec jekyll draft
+bundle exec jekyll draft "Don't Use Default Google Basemaps for Historical GIS Projects"
+cp _layouts/default.html ~/joshuarrrr.github.io/_layouts/default.html
+cd $(bundle show minima)
+cp _layouts/default.html ~/joshuarrrr.github.io/_layouts/default.html
+cd ~/joshuarrrr.github.io
+cd $(bundle show minima)
+cd ~/joshuarrrr.github.io
+git status
+git add -p
+git commit -m "add jekyll compose to be able to quickly create and manage drafts"
+git add -p
+git status
+git add _sass/palette.scss 
+git add _layouts/default.html 
+git add _includes/titleband.html 
+git status
+git commit -m "major initial site overhaul"
+git status
+git add fellowship.md 
+git commit -m "add fellowship page"
+git add resume.md 
+git commit -m "add resume"
+git add _drafts/
+git commit -m "add drafts folder"
+git status
+git push origin master
+git status
+git add -p
+git commit -m "install autoprefixer"
+git add -p
+git status
+git add *blog*
+git status
+git add _layouts/blog.html
+git status
+git commit -m "add a blog listing page"
+git add _sass/custom.scss 
+git commit -m "style tweaks"
+git status
+ls
+cd assets
+ls
+cd ..
+mv ~/Pictures/Screenshot\ from\ 2017-02-23\ 11\:36\:09.png ./images/barracks.png
+mkdir images
+mv ~/Pictures/Screenshot\ from\ 2017-02-23\ 11\:36\:09.png ./images/barracks.png
+ls
+cd images
+ls
+mv ~/Pictures/Screenshot\ from\ 2017-02-23\ 11\:47\:12.png ./images/harlem.png
+mv ~/Pictures/Screenshot\ from\ 2017-02-23\ 11\:47\:12.png harlem.png
+ls
+mv ~/Pictures/Screenshot\ from\ 2017-02-23\ 11\:56\:53.png harlem.png
+ls
+mv harlem.png rio.png
+ls
+mv ~/Pictures/Screenshot\ from\ 2017-02-23\ 12\:04\:53.png harlem.png
+ls
+cd ..
+git status
+git add _includes/titleband.html 
+git add _sass/custom.scss 
+git commit -m "style tweaks"
+git status
+bundle exec jekyll publish 
+bundle exec jekyll publish _drafts/don-t-use-default-google-basemaps-for-historical-gis-projects.md 
+git status
+git add .
+git add --all
+git status
+git commit -m "update and publish basemap post"
+git status
+git push origin master
+git status
+git add blog.md 
+git commit -m "add permalink to fix blog post"
+git status
+git push origin master
+git status
+git add -[
+git add -p
+git status
+git commit -m "increase blog post font size"
+git push origin master
+cd ~
+ls
+git clone https://github.com/joshuarrrr/fredgibbs.github.io.git
+subl fredgibbs.github.io/
+git remote
+cd fredgibbs.github.io/
+git remote
+git remote add upstream https://github.com/fredgibbs/fredgibbs.github.io.git
+git remote
+git status
+git pull upstream
+git pull upstream master
+git status
+git push origin master
+git status
+git add -m "fix link for Nicholas' site by making it an absolute link"
+git commit -m "fix link for Nicholas' site by making it an absolute link"
+git add .
+git commit -m "fix link for Nicholas' site by making it an absolute link"
+git status
+git add .
+git commit
+git status
+git push origin master
+cd ../joshuarrrr.github.io
+bundle exec jekyll serve --watch
+bundle exec
+bundle
+bundle exec jekyll serve --watch
+bundle exec jekyll serveve --help
+bundle exec jekyll serveve --man
+bundle exec jekyll serve --help
+bundle exec jekyll serve --watch --drafts
+bundle exec jekyll serve --watch
+echo $PS1
+ps1_old="$PS1"
+echo $ps1_old
+PS!=
+PS1=
+PS1="\$ "
+PS1="\a\$ "
+PS1="\A \h \$ 
+"
+PS1="\A \h \$ "
+PS1="\[\033[0;31m\}<\u@\h \W>\$ "
+PS1=\[\033[0;31m\]<\u@\h \W>\$ "
+PS1="\[\033[0;31m\]<\u@\h \W>\$ "
+PS1="\[\033[0;31m\]<\u@\h \W>\$ "
+PS1="\[\033[0;31m\]<\u@\h \W>\$ "
+PS1=ps1_old
+PS1="\[\033[0;31m\]<\u@\h \W\$ "
+PS1="\[\033[0;31m\]<\u@\h W>\$\[\033[0m\] "
+PS1="\[\033[0;31m\]<\u@\h \W>\$\[\033[0m\] "
+PS1="\[\033[0;41m\]<\u@\h \W>\$\[\033[0m\] "
+PS1="\[\033[7;41m\]<\u@\h \W>\$\[\033[0m\] "
+PS1="\[\033[5;41m\]<\u@\h \W>\$\[\033[0m\] "
+PS1="\[\033[s\033[0;0H\033[0;41m\033[K\033[1;33m\t\033[0m\033[u\]<\u@\h \W>\$ "
+dpkg --search /usr/bin/vim
+workon dailygraphics
+cd graphics
+ls
+cd pv-record-chart
+ls
+fab app
+cd ..
+cd dailygraphics/
+fab app
+fab staging deploy:pv-record-chart
+fab app
+git branch
+ls
+fab app
+python
+fab app
+git status
+git diff
+fab app
+fab add_bar_chart:test-auth
+fab app
+git status
+fab app
+fab staging deploy:pv-record-chart
+fab app
+fab staging deploy:pv-record-chart
+fab production deploy:pv-record-chart
+git status
+cat .bash_profile
+cat .bashrc
+cat ~/bash_profile
+cd ..
+ls
+ls -a
+cat .bash_profile
+cat .bashrc
+subl .bashrc
+source activate
+deactivate
+source deactivate
+source .bashrc
+cd ../graphics/pv-record-chart
+git status
+git diff
+git status
+git diff js/graphic.js
+git status
+git add js/graphic.js 
+git commit -m "conistently order colors in the key"
+git status
+git diff
+git add .
+git commit -m "first major update deployment"
+git status
+git push origin master
+git status
+workon dailygraphics
+cd dailygraphics/
+fab app
+workon dailygraphics
+cd dailygraphics/
+fab staging deploy:pv-record-chart
+fab production deploy:pv-record-chart
+git status
+cd ../graphics/pv-record-chart
+git status
+git diff
+git add .
+git commit -m "deploy to production"
+git status
+cd ..
+logoff
+logout
+deactivate
+mkdir django_scraping_template && cd django_scraping_template
+conda create --name django-scrape
+conda create --name django-scrape --clone root
+source activate django-scrape
+pip install mechanize
+pip install --upgrade pip
+pip install beautifulsoup4
+pip install Django
+pip freeze > requirements.txt
+git init
+django-admin.py startproject scraper
+cd scraper
+python manage.py startapp custom_scraper
+touch ../scraper.py
+ls
+cd ..
+ls
+tree -d .
+sudo apt-get install tree
+tree -d .
+ls
+cd scraper
+tree -d .
+cd ..
+ls
+cd scraper
+ls
+ls scraper
+ls
+subl scraper/settings.py
+ls
+cd ..
+ls
+cd ..
+ls
+cd django_scraping_template/
+ls
+cd scraper
+ls
+cd custom_scraper/
+ls
+subl models.py
+ls
+subl admin.py
+ls
+cd ..
+ls
+cd scraper
+ls
+cd ..
+ls
+python manage.py makemigrations
+subl admin.py
+subl custom_scraper/admin.py
+ls
+ls scraper
+ls custom_scraper
+subl scraper/settings.py
+subl custom_scraper/admin.py
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+cdmkdir ~/example_bot
+mkdir ~/example_bot
+cd ~/example_bot/
+pip install Scrapy
+scrapy startproject example_bot
+pip install --upgrade six scrapy
+scrapy startproject example_bot
+pip install --upgrade six
+easy_install --upgrade six
+scrapy startproject example_bot
+ls
+cd example_bot
+ls
+cd example_bot
+ls
+subl settings.py
+ls
+cd ..
+ls
+cd ..
+ls
+pip install scrapy-djangoitem
+ls
+cd example_bot/
+ls
+cd example_bot/
+ls
+subl items.py 
+ls
+cd spiders
+ls
+subl example.py
+ls
+cd ..
+ls
+subl pipelines.py
+ls
+subl settings.py
+ls
+subl settings.py
+scrapy crawl example
+python
+scrapy crawl example
+ls --help
+wc --help
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd example_bot
+ls
+cd example_bot/
+ls
+cd example_bot/
+LS
+ls
+cd ../../..
+ls
+cd django_scraping_template/
+ls
+subl scraper.py 
+ls
+cd scraper
+ls
+subl scraper/settings.py
+subl custom_scraper/models.py
+deactivate
+source deactivate
+cd ~/django_scraping_template/
+ls
+cd scraper
+ls
+cd scraper
+ls
+cd ..
+ls
+cd ..
+ls
+cd scraper/custom_scraper/
+ls
+cat models.py
+cd ..
+ls
+cd ..
+ls
+cd scraper
+l
+ls
+cd scraper
+ls
+dpkg -s poppler-utils
+pdfimages -tiff Downloads/Travelers_1976Program.pdf 
+pdfimages --tiff Downloads/Travelers_1976Program.pdf 
+pdfimages --help
+pdfimages -list Downloads/Travelers_1976Program.pdf 
+pdfimages --help
+pdfimages -j Downloads/Travelers_1976Program.pdf 
+ls
+pdfimages -j Downloads/Travelers_1976Program.pdf Downloads/
+mount
+cd Downloads/
+cd
+ls /dev
+cd Downloads/
+tar -xzf gephi-0.9.1-linux.tar.gz 
+ls
+mv ./gephi-0.9.1/ ~/gephi-0.9.1/
+ls
+cd ../gephi-0.9.1/
+chmod +x /bin/gephi.sh
+ls
+cd bin
+ls
+cat gephi
+./bin/gephi
+chmod +x /bin/gephi
+ls
+cd ..
+chmod +x /bin/gephi
+./bin/gephi
+source activate timelinecurator
+cd TimeLineCurator/
+python rfscrape.py
+pip install newspaper
+sudo apt-get update
+sudo apt-get install python-dev
+sudo apt-get install libxml2-dev libxslt-dev
+sudo apt-get install libjpeg-dev zlib1g-dev libpng12-dev
+pip install newspaper
+pip install newspaper3k
+python rfscrape.py
+ls rftexts -1 | wc -l
+python rfscrape.py
+ls rftexts -1 | wc -l
+cd ../Mallet/
+bin\mallet import-dir --input ~/TimeLineCurator/rftexts --output rf_posts.mallet --keep-sequence --remove-stopwords
+ls
+bin/mallet import-dir --input ~/TimeLineCurator/rftexts --output rf_posts.mallet --keep-sequence --remove-stopwords
+ls
+bin/mallet train-topics --input rf_posts.mallet
+bin\mallet train-topics  --input tutorial.mallet  --num-topics 20 --optimize-interval 20 --output-state topic-state.gz  --output-topic-keys tutorial_keys.txt --output-doc-topics tutorial_composition.txt
+bin/mallet train-topics  --input rf_posts.mallet --num-topics 20 --optimize-interval 20 --output-state rf_topic-state.gz  --output-topic-keys rf_keys.txt --output-doc-topics rf_composition.txt
+subl rf_keys.txt 
+subl rf_composition.txt 
+cd ../
+ls
+cd joshuarrrr.github.io
+ls
+bundle exec jekyll serve --watch
+ls -l media
+ls
+cd ..
+ls
+cd ..
+ls
+cd ~
+ls
+cd ..
+ls
+cd ..
+ls
+ls -l media
+cd media
+ls
+cd josh
+ls
+ls -l
+dropbox stop && DBUS_SESSION_BUS_ADDRESS=" dropbox start
+dropbox stop && DBUS_SESSION_BUS_ADDRESS="" dropbox start
+dropbox status
+dropbox stop && dbus-launch dropbox start
+dropbox stop
+dbus-launch dropbox start
+mkdir bg_proj
+cd bg_proj
+curl -Lk https://goo.gl/xlXWDl > Makefile; make basic;
+ls
+npm install light-server
+npm install light-server -g
+ls
+rm -rf node_modules/
+ls
+node --version
+light-server --version
+make server
+git clone https://github.com/BostonGlobe/shapefiles.git
+ls
+npm install -g d3-geo-projection
+geoproject 'd3.geoConicConformal()d3.geoConicEqualArea().parallels([34, 40.5]).rotate([120, 0]).fitSize([960, 960], d)' < ca.json > ca-albers.json
+  .parallels([41 + 43 / 60, 42 + 41 / 60])
+geoproject 'd3.geoConicConformal().parallels([41 + 43 / 60, 42 + 41 / 60]).rotate([71 + 30 / 60, -41]).fitSize([960, 960], d)' < /shapefiles/MA/Boston/Boston.geojson > boston-sp.json
+geoproject 'd3.geoConicConformal().parallels([41 + 43 / 60, 42 + 41 / 60]).rotate([71 + 30 / 60, -41]).fitSize([960, 960], d)' < shapefiles/MA/Boston/Boston.geojson > boston-sp.json
+ls
+geo2svg -w 960 -h 960 < boston-sp.json > boston-sp.svg
+ls
+xdg-open boston-sp.svg 
+ls
+geoproject 'd3.geoConicConformal().parallels([41 + 43 / 60, 42 + 41 / 60]).rotate([71 + 30 / 60, -41]).fitSize([960, 960], d)' < shapefiles/MA/Boston/ZCTA.geojson > boston-ZCTA-sp.json
+geo2svg -w 960 -h 960 < boston-ZCTA-sp.json > boston-ZCTA-sp.svg
+xdg-open boston-ZCTA-sp.svg 
+ls
+subl src
+subl src/
+make server
+topojson --version
+which topojson
+npm install -g topojson
+make server
+topojson -o boston-ZCTA-sp.json --id-property SU_A3 --properties name=NAME -- subunits.josn places.json
+which topojson
+topojson --version
+npm install -g topojson
+topojson --help
+geo2topo boston-ZCTA-sp.json > boston.json
+make server
+geo2topo -n tracts=boston-ZCTA-sp.json > boston-topo.json
+ls
+cd shapefiles/
+ls
+touch ACS_15_5YR_B19013.csvt 
+subl ACS_15_5YR_B19013.csvt
+cd ..
+subl datalog.md
+ls
+cd replication/
+git init
+git status
+git add census_data/
+git status
+git rm --cached .
+git rm -r --cached .
+git status
+subl .gitignore
+git status
+git add .gitignore 
+git add census_data/
+git status
+git commit -m "download median household income (2015) census data"
+git add shape_files/tl_2015_25_bg/
+git status
+git commit -m "download and project block group shapefiles for the three Mass. counties served by the T"
+git status
+git add shape_files/mbta_rapid_transit/
+git status
+git commit -m "Download and project subway lines and stops"
+git status
+git add shape_files/boundaries/
+git status
+git commit -m "create shapes to define center and edges of map area"
+git status
+git add shape_files/stop_buffers/
+git commit -m "create buffers around T stops"
+git status
+git add .
+git commit -m "save of initial transit map"
+git status
+git push origin master
+git remote add origin https://github.com/joshuarrrr/boston_transit_census.git
+git push -u origin master
+git status
+git add shape_files/mbta_rapid_transit/MBTA_NODE_proj.dbf 
+ls calculated_data
+ls
+ls caculated_data
+cd ..
+git add caculated_data -a
+git add -a caculated_data
+git add -a caculated_data/
+cd replication/
+git add -a caculated_data/
+git add -A caculated_data/
+git status
+git commit -m "calculate distances from stops to transit center and order by direction"
+git status
+git add -A census_data/
+git status
+git add Boston_transit_map.qgs
+git status
+git commit -m "Add additional census data on home and rental prices"
+git status
+subl .gitignore 
+git status
+git add .gitignore 
+git commit -m "ignore lockfiles"
+git add --all .
+git commit -m "add buffer intersect fields"
+git status
+git push origin master
+git status
+git add -a
+git add -A .
+git commit -m "calculate stats for 300 ft buffers"
+git status
+git add --all .
+git commit -m "create intersect and add calculated fields for eighth mile buffers"
+git status
+git add --all .
+git commit -m "calculate all summary statistics for eighth-mile buffers and rejoin data to stops"
+git status
+git add --all .
+git commit -m "recalculate eighth-mile rent statistics to fix"
+git status
+git push origin master
+git status
+git add -A .
+git commit -m "tweak for presentation and export maps"
+ls
+cd shapefiles/MA/Boston/
+ls
+cat README.md 
+cd ~/joshromero-portfolio/
+ls
+hexo --help
+hexo new draft "Tracking Boston's housing and income by Transit"
+hexo server --draft
+hexo publish "Tracking Boston's housing and income by Transit"
+hexo server --draft
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo server
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+git status
+git add -p
+git status
+git commit -m "change assets config to allow posts with lost of custom scripts and styles"
+git add -p
+git status
+cat .gitignore 
+git commit -m "do not add typography to main to main title field, which needs to remain plaintext"
+git status
+git add source/_posts/*
+git status
+git commit -m "add draft of Boston map post"
+git status
+git add -p
+git status
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo clean
+hexo generate
+hexo server
+hexo --version
+hexo server
+hexo clean
+hexo server
+hexo clean
+hexo server
+hexo generate
+hexo server
+hexo clean
+hexo server
+hexo generate
+hexo deploy
+cd  ~
+ls
+cd joshromero-portfolio/
+hexo --version
+hexo-renderer-marked --version
+ls
+ls node_modules/
+cd node_modules/hexo-renderer-marked/
+ls
+cat README.md 
+cd ../..
+ls
+cat package.json 
+npm list hexo-renderer-marked
+ls
+subl db.json
+hexo --help
+hexo list
+hexo list post
+git status
+git fetch
+git status
+git fetch origin master
+git status
+git add -p
+git status
+git commit -m "write initial text"
+git add -p
+git status
+git add -p
+git status
+ls
+touch -d "2014-08-12T21:01:10.000Z" source/_posts/How-to-Choose-the-Right-Online-Charting-Tool.md 
+stat source/_posts/How-to-Choose-the-Right-Online-Charting-Tool.md 
+touch -d "2014-08-12T21:01:10.000Z" source/_posts/How-to-Choose-the-Right-Online-Charting-Tool.md 
+touch -d "2014-05-25T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2016-05-03T07:40:07.211Z
+touch -d 
+touch -d "2016-05-03T07:40:07.211Z" source/_posts/How-to-Choose-the-Right-Online-Charting-Tool.md 
+touch -d "2014-06-25T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T23:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T07:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-06-26T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-06-06T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-06-01T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-30T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-28T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-27T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-26T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-26T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T23:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T19:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T21:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T22:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-25T21:50:06.000Z" source/_posts/hello-world.md 
+touch -d "2014-05-26T17:40:06.000Z" source/_posts/hello-world.md 
+touch -d "2016-05-20T19:13:38.243Z" source/_posts/journalist-toolbox-so-you-want-to-embed-a-table-of-data.md 
+stats source/_posts/journalist-toolbox-so-you-want-to-embed-a-table-of-data.md 
+stat source/_posts/journalist-toolbox-so-you-want-to-embed-a-table-of-data.md 
+touch -d "2014-08-12T21:01:10.000Z" source/_posts/journalist-toolbox-so-you-want-to-embed-a-table-of-data.md 
+touch -d "2015-05-26T02:08:24.000Z" source/_posts/Finding-New-Narratives-in-Old-Stories.md 
+git status
+git commit -m "add custom styles to leaflet map"
+git add -p
+git status
+git commit -m "fix header styling to comply with markdown update"
+git add -p
+git status
+git commit -m "clean up colors and classes"
+git status
+git add -p
+git status
+git reset HEAD source/_posts/Tracking-Boston-s-housing-and-income-by-Transit/assets/js/map.js
+git status
+git add -p
+git commit -m "scale dot size"
+git status
+git add -p
+git status
+git commit -m "customize map behavior and layout"
+git status
+git add -p
+git commit -m "fix mobile layout bugs"
+git status
+git add -p
+y
+git status
+git commit -m "initial cleanup of js file"
+git status
+git add -p
+git commit -m "comment out unneeded css and js files"
+git add -p
+git status
+git add .
+git status
+git reset HEAD true-db.json
+git reset HEAD source/dw-test.html
+git status
+git commit -m "update popup tables to highlight selected row, column, and cell"
+git status
+git diff
+git status
+git add source/supplement/
+git add *.md
+git status
+git commit -m "finalize text"
+git status
+git stash
+workon inspections
+createdb inspections
+createuser inspections
+psql inspections
+cd ..
+ls
+add2virtualenv .
+add2virtualenv inspections
+git status
+cd inspections/
+ls
+export DJANGO_SETTINGS_MODULE=inspections.settings
+pip install psycopg2
+django-admin.py shell
+cd ../..
+ls
+git status
+git checkout chapter-1
+git status
+git checkou josh-ch-1
+git checkout josh-ch-1
+git branch
+git branch -l
+git branch --help
+git branch --list
+git branch --help
+git branch josh-ch-1
+git checkout josh-ch-1
+git status
+git add .
+git commit -m "Initial Django setup. Add restaurant and inspection apps."
+cd inspections/inspections/
+ls
+django-admin.py runserver
+subl /etc/postgresql/9.3/main/pg_hba.conf 
+ls /etc/postgresql/9.3/main/
+cat /etc/postgresql/9.3/main/pg_hba.conf 
+sudo cat /etc/postgresql/9.3/main/pg_hba.conf 
+sudo subl /etc/postgresql/9.3/main/pg_hba.conf 
+su - postgres
+/usr/bin/pg_ctl reload
+pgsl
+pgsql
+psql
+psql inspections
+/var/lib/postgresql/9.3/main reload
+/etc/init.d/postgresql reload 
+sudo /etc/init.d/postgresql reload 
+django-admin.py runserver
+sudo subl /etc/postgresql/9.3/main/pg_hba.conf 
+sudo /etc/init.d/postgresql reload 
+django-admin.py runserver
+createuser inspections
+django-admin.py runserver
+subl ~/.virtualenvs/inspections/bin/postactivate
+cd ../..
+ls
+subl .
+django-admin.py syncdb
+makemigrations
+django-admin.py makemigrations
+migrate
+django-admin.py migrate
+django-admin.py runserver
+django-admin.py --help
+django-admin.py createsuperuser
+django-admin.py runserver
+django-admin.py makemigrations
+pip uninstall south
+pip freeze > requirements.txt
+cat requirements.txt 
+git status
+git add -p
+git commit -m "fix database username"
+git add .
+git commit -m "remove unnecessary South install"
+django-admin.py runserver
+django-admin.py makemigrations
+django-admin.py migrate
+django-admin.py runserver
+django-admin.py makemigrations
+django-admin.py runserver
+django-admin.py migrate
+django-admin.py runserver
+man history
+history --help
+history -help
+history -w ./history1.txt
+workon inspections
+createdb inspections
+createuser inspections
+psql inspections
+cd ..
+ls
+add2virtualenv .
+add2virtualenv inspections
+git status
+cd inspections/
+ls
+export DJANGO_SETTINGS_MODULE=inspections.settings
+pip install psycopg2
+django-admin.py shell
+cd ../..
+ls
+git status
+git checkout chapter-1
+git status
+git checkou josh-ch-1
+git checkout josh-ch-1
+git branch
+git branch -l
+git branch --help
+git branch --list
+git branch --help
+git branch josh-ch-1
+git checkout josh-ch-1
+git status
+git add .
+git commit -m "Initial Django setup. Add restaurant and inspection apps."
+cd inspections/inspections/
+ls
+django-admin.py runserver
+subl /etc/postgresql/9.3/main/pg_hba.conf 
+ls /etc/postgresql/9.3/main/
+cat /etc/postgresql/9.3/main/pg_hba.conf 
+sudo cat /etc/postgresql/9.3/main/pg_hba.conf 
+sudo subl /etc/postgresql/9.3/main/pg_hba.conf 
+su - postgres
+/usr/bin/pg_ctl reload
+pgsl
+pgsql
+psql
+psql inspections
+/var/lib/postgresql/9.3/main reload
+/etc/init.d/postgresql reload 
+sudo /etc/init.d/postgresql reload 
+django-admin.py runserver
+sudo subl /etc/postgresql/9.3/main/pg_hba.conf 
+sudo /etc/init.d/postgresql reload 
+django-admin.py runserver
+createuser inspections
+django-admin.py runserver
+subl ~/.virtualenvs/inspections/bin/postactivate
+cd ../..
+ls
+subl .
+django-admin.py syncdb
+makemigrations
+django-admin.py makemigrations
+migrate
+django-admin.py migrate
+django-admin.py runserver
+django-admin.py --help
+django-admin.py createsuperuser
+django-admin.py runserver
+django-admin.py makemigrations
+pip uninstall south
+pip freeze > requirements.txt
+cat requirements.txt 
+git status
+git add -p
+git commit -m "fix database username"
+git add .
+git commit -m "remove unnecessary South install"
+django-admin.py runserver
+django-admin.py makemigrations
+django-admin.py migrate
+django-admin.py runserver
+django-admin.py makemigrations
+django-admin.py runserver
+django-admin.py migrate
+django-admin.py runserver
+man history
+history --help
+history -help
+history -w ./history1.txt
+cat history1.txt 
+history -a ./history1.txt
